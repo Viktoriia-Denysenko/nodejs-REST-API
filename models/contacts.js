@@ -21,6 +21,16 @@ const contactSchema = Schema(
   { versionKey: false, timestamps: true }
 );
 
+// const handleErrors = (error, data, next) => {
+//   const { name, code } = error;
+//   console.log(name);
+//   console.log(code);
+//   // error.status = 400;
+//   // next();
+// };
+
+// contactSchema.post("save", handleErrors);
+
 const joiSchema = Joi.object({
   name: Joi.string().required(),
   email: Joi.string().required(),
