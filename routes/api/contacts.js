@@ -9,7 +9,7 @@ const {
   validationBodyPatch,
 } = require("../../middlewares");
 
-const { joiSchema, statusJoiSchema } = require("../../models");
+const { joiSchema, statusJoiSchema } = require("../../models/contacts");
 
 const router = express.Router();
 
