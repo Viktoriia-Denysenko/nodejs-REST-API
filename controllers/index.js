@@ -3,6 +3,7 @@ const signup = require("./users");
 const login = require("./users");
 const currentUser = require("./currentUser");
 const logout = require("./users");
+const updateSubscriptionStatus = require("./users");
 
 module.exports = {
   contacts,
@@ -10,4 +11,5 @@ module.exports = {
   login,
   currentUser,
   logout,
+  updateSubscriptionStatus,
 };
